@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "slimyquestmod:block/rocky_worm_dirt"
+  }
+}

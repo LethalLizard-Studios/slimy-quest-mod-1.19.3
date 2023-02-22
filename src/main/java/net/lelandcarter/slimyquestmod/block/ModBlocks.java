@@ -20,7 +20,15 @@ public class ModBlocks {
 
     public static final Block WORM_DIRT = registerBlock("worm_block",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.SOIL, MapColor.DIRT_BROWN).strength(0.7f).sounds(BlockSoundGroup.GRAVEL),
-                    UniformIntProvider.create(2, 4)), ItemGroups.NATURAL);
+                    UniformIntProvider.create(1, 2)), ItemGroups.NATURAL);
+    public static final Block ROCKY_WORM_DIRT = registerBlock("rocky_worm_block",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.SOIL, MapColor.DIRT_BROWN).strength(1.0f).sounds(BlockSoundGroup.GRAVEL).requiresTool(),
+                    UniformIntProvider.create(1, 2)), ItemGroups.NATURAL);
+
+    public static final Block COMPOSTINGBIN = registerBlock("compostingbin",
+            new Block(FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).strength(1.0f).sounds(BlockSoundGroup.WOOD)), ItemGroups.FUNCTIONAL);
+    public static final Block COMPOSTINGBIN_FULL = registerBlock("compostingbin_full",
+            new Block(FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).strength(1.0f).sounds(BlockSoundGroup.WOOD)), ItemGroups.FUNCTIONAL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

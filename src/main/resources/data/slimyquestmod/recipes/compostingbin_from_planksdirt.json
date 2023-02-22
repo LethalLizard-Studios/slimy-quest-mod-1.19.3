@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "I": {
-      "item": "slimyquestmod:worm"
+      "item": "minecraft:planks"
     },
     "i": {
       "item": "minecraft:dirt"
     }
   },
   "pattern": [
-    " I ",
-    "IiI",
-    " I "
+    "III",
+    "iii",
+    "III"
   ],
   "result": {
-    "item": "slimyquestmod:worm_block"
+    "item": "slimyquestmod:compostingbin"
   }
 }

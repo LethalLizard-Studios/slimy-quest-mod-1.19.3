@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "slimyquestmod:worm_block"
+    "slimyquestmod:worm_block",
+    "slimyquestmod:rocky_worm_block"
   ]
 }

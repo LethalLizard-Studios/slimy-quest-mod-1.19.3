@@ -3,10 +3,10 @@
   "category": "building",
   "key": {
     "I": {
-      "item": "slimyquestmod:worm"
+      "item": "minecraft:cobblestone"
     },
     "i": {
-      "item": "minecraft:dirt"
+      "item": "slimyquestmod:worm_block"
     }
   },
   "pattern": [
@@ -15,6 +15,6 @@
     " I "
   ],
   "result": {
-    "item": "slimyquestmod:worm_block"
+    "item": "slimyquestmod:rocky_worm_block"
   }
 }

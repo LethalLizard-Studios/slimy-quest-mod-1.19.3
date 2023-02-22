@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "slimyquestmod:compostingbin",
+    "slimyquestmod:compostingbin_full"
   ]
 }

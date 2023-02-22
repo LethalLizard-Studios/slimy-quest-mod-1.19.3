@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "i": {
+      "item": "slimyquestmod:steel"
+    },
+    "v": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "I",
+    "i",
+    "v"
+  ],
+  "result": {
+    "item": "slimyquestmod:mixed_ingot"
+  }
+}

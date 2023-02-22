@@ -1,0 +1,10 @@
+{
+  "parent": "block/orientable_with_bottom",
+  "textures": {
+    "bottom": "slimyquestmod:block/compostingbin_end",
+    "front": "slimyquestmod:block/compostingbin_side",
+    "particle": "slimyquestmod:block/compostingbin_side",
+    "side": "slimyquestmod:block/compostingbin_side",
+    "top": "slimyquestmod:block/compostingbin_top_full"
+  }
+}
