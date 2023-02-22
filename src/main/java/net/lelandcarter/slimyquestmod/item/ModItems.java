@@ -26,6 +26,10 @@ public class ModItems {
         addToItemGroup(ItemGroups.INGREDIENTS, STEEL);
         addToItemGroup(ItemGroups.INGREDIENTS, MIXED_INGOT);
         addToItemGroup(ItemGroups.INGREDIENTS, SLIME_INGOT);
+
+        addToItemGroup(ModItemGroup.SLIMYQUEST, STEEL);
+        addToItemGroup(ModItemGroup.SLIMYQUEST, MIXED_INGOT);
+        addToItemGroup(ModItemGroup.SLIMYQUEST, SLIME_INGOT);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {
