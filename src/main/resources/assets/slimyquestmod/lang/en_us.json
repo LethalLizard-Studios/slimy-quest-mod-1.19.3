@@ -2,6 +2,10 @@
   "item.slimyquestmod.steel": "Steel Ingot",
   "item.slimyquestmod.mixed_ingot": "Mixed Ingot",
   "item.slimyquestmod.slime_ingot": "Slimy Green Ingot",
+  "item.slimyquestmod.worm": "Worm",
+  "item.slimyquestmod.raw_steel": "Raw Steel",
+
+  "block.slimyquestmod.worm_block": "Worm Dirt",
 
   "itemgroup.slimyquest": "Slimy Quest"
 }

@@ -2,6 +2,7 @@ package net.lelandcarter.slimyquestmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lelandcarter.slimyquestmod.block.ModBlocks;
 import net.lelandcarter.slimyquestmod.item.ModItemGroup;
 import net.lelandcarter.slimyquestmod.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class SlimyQuestMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:raw_iron"
+    },
+    "i": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    "Ii",
+    "iI"
+  ],
+  "result": {
+    "item": "slimyquestmod:raw_steel"
+  }
+}

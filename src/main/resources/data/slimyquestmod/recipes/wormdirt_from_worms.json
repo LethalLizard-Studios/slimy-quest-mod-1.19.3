@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "buidling",
+  "key": {
+    "I": {
+      "item": "slimyquestmod:worm"
+    },
+    "i": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IiI",
+    " I "
+  ],
+  "result": {
+    "item": "slimyquestmod:worm_block"
+  }
+}

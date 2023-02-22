@@ -17,6 +17,10 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item SLIME_INGOT = registerItem("slime_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item WORM = registerItem("worm",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_STEEL = registerItem("raw_steel",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SlimyQuestMod.MOD_ID, name), item);
@@ -26,14 +30,13 @@ public class ModItems {
         addToItemGroup(ItemGroups.INGREDIENTS, STEEL);
         addToItemGroup(ItemGroups.INGREDIENTS, MIXED_INGOT);
         addToItemGroup(ItemGroups.INGREDIENTS, SLIME_INGOT);
-
-        addToItemGroup(ModItemGroup.SLIMYQUEST, STEEL);
-        addToItemGroup(ModItemGroup.SLIMYQUEST, MIXED_INGOT);
-        addToItemGroup(ModItemGroup.SLIMYQUEST, SLIME_INGOT);
+        addToItemGroup(ItemGroups.INGREDIENTS, WORM);
+        addToItemGroup(ItemGroups.INGREDIENTS, RAW_STEEL);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
+        ItemGroupEvents.modifyEntriesEvent(ModItemGroup.SLIMYQUEST).register(entries -> entries.add(item));
     }
 
     public static void registerModItems() {
