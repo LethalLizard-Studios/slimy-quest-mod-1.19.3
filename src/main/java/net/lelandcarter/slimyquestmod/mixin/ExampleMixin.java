@@ -1,4 +1,4 @@
-package net.lelandcarter.slimyquest.mixin;
+package net.lelandcarter.slimyquestmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

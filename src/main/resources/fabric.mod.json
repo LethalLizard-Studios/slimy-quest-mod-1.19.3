@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "slimyquest",
+	"id": "slimyquestmod",
 	"version": "${version}",
 	"name": "Slimy Quest Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/slimyquest/icon.png",
+	"icon": "assets/slimyquestmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.lelandcarter.slimyquest.SlimyQuestMod"
+			"net.lelandcarter.slimyquestmod.SlimyQuestMod"
 		],
 		"client": [
-			"net.lelandcarter.slimyquest.SlimyQuestModClient"
+			"net.lelandcarter.slimyquestmod.SlimyQuestModClient"
 		],
 		"fabric-datagen": [
-			"net.lelandcarter.slimyquest.SlimyQuestModDataGenerator"
+			"net.lelandcarter.slimyquestmod.SlimyQuestModDataGenerator"
 		]
 	},
 	"mixins": [
-		"slimyquest.mixins.json"
+		"slimyquestmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.14",

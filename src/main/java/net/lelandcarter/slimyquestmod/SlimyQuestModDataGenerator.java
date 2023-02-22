@@ -1,4 +1,4 @@
-package net.lelandcarter.slimyquest;
+package net.lelandcarter.slimyquestmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

@@ -1,4 +1,4 @@
-package net.lelandcarter.slimyquest;
+package net.lelandcarter.slimyquestmod;
 
 import net.fabricmc.api.ClientModInitializer;
 

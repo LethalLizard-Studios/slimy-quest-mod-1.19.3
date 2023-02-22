@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.lelandcarter.slimyquest.mixin",
+	"package": "net.lelandcarter.slimyquestmod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"
